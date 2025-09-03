@@ -1,22 +1,13 @@
 <?php
 class UserController extends UserModel {
-    
-    public function getUsers() 
-    {
+
+    public function getUsers() {
         return $this->findAll();
     }
 
-    public function getUserById($id) 
-    {
-        if (!isset($_GET['id'])) {
-            return "ID parameter is missing.";
-        }
-        $onlyId = $_GET['id'];
-        return $this->findById($onlyId);
+    public function getUserById($id) {
+        return is_numeric($id) ? $this->findById($id) : null;
     }
 }
-
-
-
 
 ?>
