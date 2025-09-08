@@ -1,5 +1,4 @@
 <?php
-<<<<<<< HEAD
 class UserView extends UserController {
 
     public function show() {
@@ -13,8 +12,6 @@ class UserView extends UserController {
     }
 }
 
-?>
-=======
 class UserView
 {
     public function showTable($users)
@@ -27,4 +24,4 @@ class UserView
         include 'view/user/user.view.detail.php';
     }
 }
->>>>>>> f263d78 (f)
+?>

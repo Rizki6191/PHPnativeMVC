@@ -1,5 +1,4 @@
 <?php
-<<<<<<< HEAD
 class UserController extends UserModel {
 
     public function getUsers() {
@@ -11,8 +10,6 @@ class UserController extends UserModel {
     }
 }
 
-?>
-=======
 class UserController extends UserModel
 {
     public function show($id = null)
@@ -31,4 +28,4 @@ class UserController extends UserModel
         }
     }
 }
->>>>>>> f263d78 (f)
+?>

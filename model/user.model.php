@@ -1,5 +1,4 @@
 <?php
-<<<<<<< HEAD
 class UserModel extends Connection {
 
     public function findAll() {
@@ -18,7 +17,7 @@ class UserModel extends Connection {
         return $result->fetch_assoc();
     }
 }
-=======
+
 class UserModel extends Connect
 {
     public function getUsers()
@@ -41,9 +40,4 @@ class UserModel extends Connect
 }
 
 
-
-
-
-
->>>>>>> f263d78 (f)
 ?>
